@@ -1,0 +1,58 @@
+
+
+
+#topbar {
+    width: 1000px;
+    height: 40px; 
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    margin-top: 8px;
+    float: left;
+}
+
+.topbar-item {
+    float: left;
+    border-left: 1px #CCCCCC solid;
+    height: 100%;
+    margin-left: 15px;
+}
+
+#sign-in-icon {
+    width: 25px;
+    margin: 10px 0px 10px 8px;
+    float: left;
+}
+
+#sign-in-txt {
+    margin-right: 80px;
+}
+
+.top-bar-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 12px;
+    margin-left: 15px;
+}
+
+.search-bar {
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 90%;
+    padding: 4px;
+    margin: 8px 15px;
+    float: left;
+}
+
+#search-icon {
+    width: 5px;
+}
