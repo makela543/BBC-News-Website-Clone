@@ -106,3 +106,92 @@ h1 {
 .no-border {
     border: none !important;
 }
+
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#main-article {
+    float: left;
+    margin-top: -10px;
+    width: 660px;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 8px;
+}
+
+h2 {
+    margin: 10px 0px 15px 0px;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 3px #BB1919 solid;
+    width: 103px;
+}
+
+h3 a {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #1167a8;
+}
+
+#article-summary {
+    color: #5a5a5a;
+    width: 255px;
+    float: left;
+    padding-right: 15px;
+}
+
+#clock {
+    height: 17px;
+    position: relative;
+    top: 2.5px;
+}
+
+#topic-link {
+    color: #BB1919;
+    text-decoration: none;
+}
+
+#topic-link:hover {
+    color: #1167a8;
+}
+
+#separator-line {
+    border-right: 1px solid #CCCCCC;
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+#article-img {
+    width: 380px;
+}
+
+p {
+    
+}
+
+#summary-blurb {
+    margin-top: 0;
+}
+
+#related-links-separator {
+    width: 40px;
+    float: left;
+    border: #BB1919 solid 1px;
+    margin-top: -5px; 
+}
+
+#related-link {
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+
+#related-link:hover {
+    color: #1167a8;
+}
