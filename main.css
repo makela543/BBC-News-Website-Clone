@@ -118,6 +118,8 @@ h1 {
     width: 660px;
     border-right: 1px solid #CCCCCC;
     padding-right: 8px;
+    margin-right: 15px;
+    height: 425px;
 }
 
 h2 {
@@ -146,22 +148,22 @@ h3 a:hover {
     padding-right: 15px;
 }
 
-#clock {
+.clock {
     height: 17px;
     position: relative;
     top: 2.5px;
 }
 
-#topic-link {
+.topic-link {
     color: #BB1919;
     text-decoration: none;
 }
 
-#topic-link:hover {
+.topic-link:hover {
     color: #1167a8;
 }
 
-#separator-line {
+.separator-line {
     border-right: 1px solid #CCCCCC;
     margin-right: 8px;
     margin-left: 3px;
@@ -171,27 +173,68 @@ h3 a:hover {
     width: 380px;
 }
 
-p {
-    
-}
-
 #summary-blurb {
     margin-top: 0;
 }
 
 #related-links-separator {
-    width: 40px;
+    width: 45px;
     float: left;
     border: #BB1919 solid 1px;
     margin-top: -5px; 
 }
 
-#related-link {
+.related-link {
     color: black;
     float: left;
     text-decoration: none;
+    padding-bottom: 12px;
 }
 
-#related-link:hover {
+.related-link:hover {
     color: #1167a8;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.video-img {
+    float: left;
+    height: 65px;
+    margin-right: 8px;
+}
+
+.video-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 105%;
+}
+
+.video-link:hover {
+    color: #1167a8;
+}
+
+.video-side-text {
+    float: right;
+    width: 180px;
+    position: relative;
+    top: -18px;
+}
+
+.date {
+    color: #5a5a5a;
+}
+
+.time-category {
+    position: relative;
+    top: -15px;
+}
+
+#watch-listen {
+    float: left;
+    position: relative;
+    top: -18px;
 }
